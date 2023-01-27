@@ -4,12 +4,12 @@ import React, { useState } from "react";
 const Card = () => {
   let dummyList = [];
 
-  dummyList = [
-    'Make my bed',
-    'Wash my hands',
-    'Watch El Padrino',
-    'Zippydi Do Dah'
-  ];
+  // dummyList = [
+  //   'Make my bed',
+  //   'Wash my hands',
+  //   'Watch El Padrino',
+  //   'Zippydi Do Dah'
+  // ];
 
   const [items, setItems] = useState(dummyList);
   const [value, setValue] = useState('');
